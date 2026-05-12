@@ -20,23 +20,10 @@ git clone https://github.com/liuguangchao103/mao-selected-works-skill.git ~/.cla
 
 ---
 
-### 通用安装提示词（适用于任意 AI Agent）
-
-复制下方提示词发送给 AI Agent：
+### 复制下方提示词发送给 AI Agent
 
 ```
-请帮我安装以下 GitHub 仓库到本地 skills 目录：
-
-仓库地址：https://github.com/liuguangchao103/mao-selected-works-skill
-
-安装命令：
-gh repo clone liuguangchao103/mao-selected-works-skill ~/.claude/skills/mao-selected-works
-
-如果 ~/.claude/skills/ 目录不存在，请先创建：
-mkdir -p ~/.claude/skills/
-
-安装完成后确认文件列表：
-ls -la ~/.claude/skills/mao-selected-works/
+安装这个skill https://github.com/liuguangchao103/mao-selected-works-skill
 ```
 
 ---
