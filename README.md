@@ -1,6 +1,6 @@
-# Mao Selected Works (毛泽东选集) Skill
+# 教员 Skill (Teacher Skill)
 
-毛泽东选集知识库技能，为 Claude Code / Codex / OpenClaw 提供毛泽东思想分析能力。
+教员选集知识库技能，为 Claude Code / Codex / OpenClaw 提供教员思想分析能力。
 
 ---
 
@@ -9,13 +9,13 @@
 ### 适用于 Claude Code
 
 ```bash
-gh repo clone liuguangchao103/mao-selected-works-skill ~/.claude/skills/mao-selected-works
+gh repo clone liuguangchao103/teacher-skill ~/.claude/skills/teacher-skill
 ```
 
 或使用 Clone 命令：
 
 ```bash
-git clone https://github.com/liuguangchao103/mao-selected-works-skill.git ~/.claude/skills/mao-selected-works
+git clone https://github.com/liuguangchao103/teacher-skill.git ~/.claude/skills/teacher-skill
 ```
 
 ---
@@ -23,14 +23,14 @@ git clone https://github.com/liuguangchao103/mao-selected-works-skill.git ~/.cla
 ### 复制下方提示词发送给 AI Agent
 
 ```
-安装这个skill https://github.com/liuguangchao103/mao-selected-works-skill
+安装这个skill https://github.com/liuguangchao103/teacher-skill
 ```
 
 ---
 
 ## 概述
 
-本 Skill 基于毛泽东选集四卷（1925-1949年）157篇重要文献，覆盖中国革命的关键理论与实践。
+本 Skill 基于教员选集四卷（1925-1949年）157篇重要文献，覆盖中国革命的关键理论与实践。
 
 ## 内容结构
 
@@ -101,7 +101,7 @@ mao-selected-works/
 
 安装后，在对话中提到以下关键词即可触发：
 
-- 毛选、毛泽东思想
+- 毛选、教员思想
 - 矛盾论、实践论、反对本本主义
 - 阶级分析、统一战线、新民主主义
 - 论持久战、群众路线
@@ -113,12 +113,12 @@ mao-selected-works/
 ### 示例问题
 
 ```
-用户: 解释毛泽东的矛盾论核心观点
+用户: 解释教员的矛盾论核心观点
 用户: 什么是群众路线？
 用户: 七届二中全会提出的两个务必是什么？
 用户: 论持久战的三个阶段是什么？
 用户: 十大军事原则有哪些？
-用户: 毛泽东如何分析中国社会各阶级？
+用户: 教员如何分析中国社会各阶级？
 ```
 
 ## 测试
@@ -130,7 +130,7 @@ cat evals/evals.json
 
 ## 数据来源
 
-原始数据来自《毛泽东选集》四卷：
+原始数据来自《教员选集》四卷：
 - **第一卷** (1925-1937): 18篇
 - **第二卷** (1937-1941): 40篇
 - **第三卷** (1941-1945): 31篇

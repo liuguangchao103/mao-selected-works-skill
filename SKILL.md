@@ -1,11 +1,11 @@
 ---
-name: mao-selected-works
-description: Analyze and answer questions about Mao Zedong's Selected Works (毛泽东选集), covering 157 articles from 1925-1949. Use when user asks about Mao's philosophical concepts (矛盾论, 实践论, 反对本本主义), political strategies (阶级分析, 统一战线, 新民主主义论, 论持久战), military thought (人民战争, 游击战术, 十大军事原则), party building (整顿党的作风, 反对自由主义), leadership methods (群众路线, 领导方法), or governance principles (七届二中全会, 论人民民主专政, 为人民服务). Triggered by mentions of 毛选, 毛泽东思想, 矛盾论, 实践论, 阶级分析, 统一战线, 新民主主义, 论持久战, 群众路线, 七届二中全会, 两个务必, 为人民服务, 论人民民主专政, 十大军事原则, etc.
+name: teacher-skill
+description: Analyze and answer questions about Mao Zedong's Selected Works (教员选集/教员思想), covering 157 articles from 1925-1949. Use when user asks about Mao's philosophical concepts (矛盾论, 实践论, 反对本本主义), political strategies (阶级分析, 统一战线, 新民主主义论, 论持久战), military thought (人民战争, 游击战术, 十大军事原则), party building (整顿党的作风, 反对自由主义), leadership methods (群众路线, 领导方法), or governance principles (七届二中全会, 论人民民主专政, 为人民服务). Triggered by mentions of 毛选, 教员, 教员思想, 矛盾论, 实践论, 阶级分析, 统一战线, 新民主主义, 论持久战, 群众路线, 七届二中全会, 两个务必, 为人民服务, 论人民民主专政, 十大军事原则, etc.
 ---
 
 # Mao Zedong Selected Works Skill
 
-毛泽东选集知识库，覆盖1925-1949年间中国革命的157篇重要文献。
+教员选集知识库，覆盖1925-1949年间中国革命的157篇重要文献。
 
 ## 毛选四卷概览
 
@@ -92,7 +92,7 @@ description: Analyze and answer questions about Mao Zedong's Selected Works (毛
 
 ## 使用说明
 
-当用户询问毛泽东选集相关内容时：
+当用户询问教员选集相关内容时：
 1. 识别问题涉及的主题领域
 2. 查阅对应的参考文件
 3. 提供准确、丰富的回答
