@@ -1,6 +1,24 @@
 # Mao Selected Works (毛泽东选集) Skill
 
-毛泽东选集知识库技能，为 Claude Code 提供毛泽东思想分析能力。
+毛泽东选集知识库技能，为 Claude Code / Codex / OpenClaw 提供毛泽东思想分析能力。
+
+---
+
+## 一键安装
+
+复制下方命令，粘贴到终端即可自动安装：
+
+```bash
+gh repo clone liuguangchao103/mao-selected-works-skill ~/.claude/skills/mao-selected-works
+```
+
+或使用 Clone 命令：
+
+```bash
+git clone https://github.com/liuguangchao103/mao-selected-works-skill.git ~/.claude/skills/mao-selected-works
+```
+
+---
 
 ## 概述
 
@@ -16,10 +34,10 @@ mao-selected-works/
 │   └── evals.json
 └── references/          # 参考文档
     ├── philosophy.md     # 哲学思想
-    ├── strategy.md      # 政治策略
-    ├── military.md       # 军事思想
+    ├── strategy.md       # 政治策略
+    ├── military.md        # 军事思想
     ├── methods.md        # 领导方法
-    ├── governance.md      # 治国理政
+    ├── governance.md     # 治国理政
     ├── peasant.md        # 农民运动
     └── quotes.md         # 语录精选
 ```
@@ -70,20 +88,6 @@ mao-selected-works/
 | 1945年 | 论联合政府、愚公移山 |
 | 1947年 | 目前形势和我们的任务（十大军事原则） |
 | 1949年 | 七届二中全会报告、论人民民主专政 |
-
-## 安装
-
-### 方法一：克隆到 skills 目录
-
-```bash
-git clone <repo-url> ~/.claude/skills/mao-selected-works
-```
-
-### 方法二：复制到 skills 目录
-
-```bash
-cp -r mao-selected-works ~/.claude/skills/
-```
 
 ## 使用方法
 
