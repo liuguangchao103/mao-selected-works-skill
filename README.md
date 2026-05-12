@@ -9,13 +9,13 @@
 ### 适用于 Claude Code
 
 ```bash
-gh repo clone liuguangchao103/teacher-skill ~/.claude/skills/teacher-skill
+gh repo clone liuguangchao103/mao-selected-works-skill ~/.claude/skills/mao-selected-works-skill
 ```
 
 或使用 Clone 命令：
 
 ```bash
-git clone https://github.com/liuguangchao103/teacher-skill.git ~/.claude/skills/teacher-skill
+git clone https://github.com/liuguangchao103/mao-selected-works-skill.git ~/.claude/skills/mao-selected-works-skill
 ```
 
 ---
@@ -23,7 +23,7 @@ git clone https://github.com/liuguangchao103/teacher-skill.git ~/.claude/skills/
 ### 复制下方提示词发送给 AI Agent
 
 ```
-安装这个skill https://github.com/liuguangchao103/teacher-skill
+安装这个skill https://github.com/liuguangchao103/mao-selected-works-skill
 ```
 
 ---
